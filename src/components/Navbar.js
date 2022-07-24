@@ -13,6 +13,8 @@ import {
     NavbarLinkExtended,
     } from "../styles/Navbar.style"
 
+
+
 export default function Navbar() {
     const [extendedNavbar, setExtendedNavbar] = useState(false)
 

@@ -1,7 +1,7 @@
 import React from "react"
 import ProjectData from "../projectData.js"
 
-export default function Navbar() {
+export default function Showcase() {
     return (
         <div className="Navbar">
             <h1>Showcase</h1>
