@@ -4,10 +4,9 @@ import { Link } from "react-router-dom"
 export const NavbarContainer = styled.nav`
     width: 100%;
     height: ${(props) => (props.extendNavbar ? "100vh" : "80px" )};
-    background-color: #ED9390;
+    background-color: black;
     display: flex;
     flex-direction: column;
-
     @media (min-width: 750px) {
         height: 80px;
     }
@@ -42,6 +41,7 @@ export const InnerContainer = styled.div`
 
 export const LinkContainer = styled.div`
     display: flex;
+    
 `
 
 export const NavbarLink = styled(Link)`
@@ -54,6 +54,9 @@ export const NavbarLink = styled(Link)`
     @media (max-width: 750px) {
         display: none;
     }
+    &:hover {
+        color: grey;
+    }
 `
 
 export const NavbarLinkExtended = styled(Link)`
@@ -63,7 +66,9 @@ export const NavbarLinkExtended = styled(Link)`
     text-decoration: none;
     margin: 10px;
     text-align: center;
-
+    &:hover {
+        color: grey;
+    }
 `
 
 export const OpenLinksButton = styled.button`
@@ -78,14 +83,17 @@ export const OpenLinksButton = styled.button`
     @media (min-width: 750px) {
         display: none;
     }
+    &:hover {
+        color: grey;
+    }
 `
 
 export const ExtendedContainer = styled.div`
     display: flex;
     flex-direction: column;
-    align-itesm: center;
 
     @media (min-width: 750px) {
         display: none;
     }
+    
 `

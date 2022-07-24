@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import LogoImg from "../images/yarnBallPink.png"
+
 import { 
     NavbarContainer, 
     LeftContainer, 
@@ -25,7 +25,7 @@ export default function Navbar() {
             <NavbarContainer extendNavbar={extendedNavbar}>
                 <InnerContainer>
                     <LeftContainer>
-                        <Logo src={LogoImg}></Logo>
+                    <Logo src={"../images/yarnBallPink.png"}></Logo>
                     </LeftContainer>
                     <RightContainer>
                         <LinkContainer>
