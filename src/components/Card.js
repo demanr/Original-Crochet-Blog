@@ -8,10 +8,21 @@ import {
 } from "../styles/Card.style.js"
 export default function Card(props) {
     const [currentImage, setCurrentImage] = React.useState(1)
-    console.log(`../images/${props.item.imageUrl}${currentImage}.jpg`)
+    
+    function changeImage() {
+        setCurrentImage(prev => {
+            var newIndex = 1
+            if (prev != props.item.totalImages){
+                newIndex = prev + 1
+            }
+            return newIndex
+        })
+
+    }
+
     return (
         <CardContainer>
-            <CardImage src={`/images/${props.item.imageUrl}${currentImage}.jpg`} className="Card--img"/>
+            <CardImage src={`/images/${props.item.imageUrl}${currentImage}.jpg`} onClick={changeImage}  className="Card--img"/>
             <CardTitle>{props.item.name}</CardTitle>
             <CardDescription>{props.item.description}</CardDescription>
         </CardContainer>

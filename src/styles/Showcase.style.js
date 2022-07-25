@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom"
 
-export const Welcome = styled.div`
+export const Descriptor = styled.div`
     font-size: 16px;
     font-family: 'Inter', 'Red Hat Display', sans-serif;
     text-align: center;
@@ -22,4 +22,19 @@ export const CardSection = styled.div`
     
     flex-flow: row wrap;
     justify-content: center;
+`
+
+export const GraphSection = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+`
+
+export const GraphDescription = styled.p`
+    height: 350px;
+    width: 20%;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
 `
