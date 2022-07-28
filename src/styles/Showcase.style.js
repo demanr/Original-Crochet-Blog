@@ -19,7 +19,6 @@ export const Title = styled.h1`
 export const CardSection = styled.div`
     display: flex;
     flex-direction: column; 
-    
     flex-flow: row wrap;
     justify-content: center;
 `

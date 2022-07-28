@@ -37,7 +37,7 @@ export default function Showcase() {
 
     return (
         <ShowcaseContainer>
-            <Title>Welcome!</Title>
+            <Title>Welcome</Title>
             <Descriptor>Hello, and welcome to my crochet blog. Here you will find information on my works, 
             information about me, and some projects I plan to do in the future. This blog serves as a 
             connection between my crochet, and my coding. I plan on using this site to track my progress 

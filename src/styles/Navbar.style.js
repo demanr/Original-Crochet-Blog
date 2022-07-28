@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 
 export const NavbarContainer = styled.nav`
     width: 100%;
-    height: ${(props) => (props.extendNavbar ? "100vh" : "80px" )};
+    height: ${(props) => (props.extendNavbar ? "30vh" : "80px" )};
     background-color: black;
     display: flex;
     flex-direction: column;
-    @media (min-width: 750px) {
+    @media (min-width: 800px) {
         height: 80px;
     }
 `
@@ -51,7 +51,7 @@ export const NavbarLink = styled(Link)`
     text-decoration: none;
     margin: 10px;
 
-    @media (max-width: 750px) {
+    @media (max-width: 800px) {
         display: none;
     }
     &:hover {
@@ -80,7 +80,7 @@ export const OpenLinksButton = styled.button`
     font-size: 45px;
     cursor: pointer;
 
-    @media (min-width: 750px) {
+    @media (min-width: 800px) {
         display: none;
     }
     &:hover {
@@ -92,7 +92,7 @@ export const ExtendedContainer = styled.div`
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 750px) {
+    @media (min-width: 800px) {
         display: none;
     }
     
