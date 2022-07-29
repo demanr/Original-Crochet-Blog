@@ -17,7 +17,7 @@ export default function Profile() {
         <FullContainer> 
             <ProfileContainer>
                 <PictureContainer>
-                    <ProfilePicture src={"../images/hornetPlush1.jpg"}/>
+                    <ProfilePicture src={"../images/profilePhoto.jpg"}/>
                 </PictureContainer>
                 <AboutContainer>
                     <Text><h2>Hello!</h2>
@@ -28,16 +28,16 @@ export default function Profile() {
                     about crocheting for the next few years. It wasn't until I enrolled in university and heard of the crochet club that my 
                     interest was piqued again. From there I made several scarves, and a basic HTML blog to track my progress. I made a goal to 
                     myself, to make a bee plush before the end of the year. While that goal was never met, I do not take it as a loss. Instead, my 
-                    goals changed, and I suceeded in, while different, equally if not more fulfilling ways.
+                    goals changed. I suceeded in equally if not more fulfilling ways.
                     </Text>
+                    <h2> </h2>
                     <Text>This site will be used to challenge both my coding and crochet skills. It will be regularily updated, 
                     with new finished projects, and to document goals I want for the future. I will also be trying to make use of 
                     different libraries and programming strategies to improve the website and my knowledge.</Text>
                 </AboutContainer>
             </ProfileContainer>
             <StatsContainer>
-                    <p> full graph </p>
-                </StatsContainer>
+            </StatsContainer>
         </FullContainer>
         )
 } 

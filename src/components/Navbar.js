@@ -17,6 +17,19 @@ import {
 
 export default function Navbar() {
     const [extendedNavbar, setExtendedNavbar] = useState(false)
+    const [yarnColour, setYarnColour] = useState("Blue")
+    function switchYarnColour() {
+        setYarnColour(oldColour => {
+            if (oldColour == "Pink"){
+                return "Blue"
+            }
+            else if (oldColour == "Blue") {
+                return "Purple"
+            }
+            return "Pink"
+
+        })
+    }
 
     function switchNavbar() {
         setExtendedNavbar(prev => !prev)
@@ -25,7 +38,7 @@ export default function Navbar() {
             <NavbarContainer extendNavbar={extendedNavbar}>
                 <InnerContainer>
                     <LeftContainer>
-                    <Logo src={"../images/yarnBallPink.png"}></Logo>
+                    <Logo src={`../images/yarnBall${yarnColour}.png`} onClick={switchYarnColour}></Logo>
                     </LeftContainer>
                     <RightContainer>
                         <LinkContainer>

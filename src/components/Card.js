@@ -22,7 +22,7 @@ export default function Card(props) {
 
     return (
         <CardContainer>
-            <CardImage src={`/images/${props.item.imageUrl}${currentImage}.jpg`} onClick={changeImage}  className="Card--img"/>
+            <CardImage src={`/images/${props.item.imageUrl}${currentImage}.jpg`} onClick={changeImage}/>
             <CardTitle>{props.item.name}</CardTitle>
             <CardDescription>{props.item.description}</CardDescription>
         </CardContainer>
