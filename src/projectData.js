@@ -6,7 +6,7 @@ export default {
                 id: 1,
                 name: "Hornet Plush",
                 imageUrl: "hornetPlush",
-                totalImages: 3,
+                totalImages: 4,
                 description: "Plush of Hornet from Hollow Knight",
                 dateStarted: "2022-06-07",
                 dateEnded: "2022-07-19",
@@ -109,7 +109,8 @@ export default {
                 hoursSpent: 5,
                 fullDescription: `Standing at around 4 feet 10 inches, this scarf ended up being a bit bigger than I thought. It was 
                 made as a Christmas gift for my boyfriend, Wally. There is nothing inherently special about it, but it was a nice Christmas break 
-                project. It took equally as long (if not longer) than my simple scarf due to being almsot a foot longer.`,
+                project. It took equally as long (if not longer) than my simple scarf due to being almsot a foot longer. It was also my first project done with 
+                very dark coloured yarn, and as such at times I struggled to find the correct stitches at times.`,
                 patternDescription: `As with all my early projects, this is made using medium (4) yarn. This pattern is the same as the grey regular scarf with some exceptions. Firstly, it is less wide,
                 having an original length of 22 single loops, and is longer, with a final length of around 4 feet 10 inches.`
             },
