@@ -58,7 +58,7 @@ export default function Showcase() {
                 </ResponsiveContainer>
                 <GraphDescription>
                     This graph details how many hours I spent on each of my projects, 
-                    in no specific chronological order.
+                    in no specific order.
                 </GraphDescription>
             </GraphSection>
         </ShowcaseContainer>
