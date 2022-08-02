@@ -159,7 +159,7 @@ export default {
                 id: 8,
                 name: "Panda Plush",
                 imageUrl: "pandaPlush",
-                totalImages: 1,
+                totalImages: 4,
                 description: "Black and white panda plush",
                 dateStarted: "2022-07-29",
                 dateEnded: "2022-07-31",
