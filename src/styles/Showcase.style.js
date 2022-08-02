@@ -7,13 +7,6 @@ export const Descriptor = styled.div`
     width: 70%;
 `
 
-export const ShowcaseContainer = styled.div`
-    font-family: 'Inter', 'Red Hat Display', sans-serif;
-    margin-top: 35px;
-`
-export const Title = styled.h1`
-
-`
 export const CardSection = styled.div`
     display: flex;
     flex-direction: column; 

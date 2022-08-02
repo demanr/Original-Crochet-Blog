@@ -1,16 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom"
 
-export const Container = styled.div`
-    width: 100%;
-    display: flex;
-    flex-direction: column; 
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    
-`
-
 export const ImageContainer = styled.div`
     width: 30%;
     @media (max-width: 1350px) {
@@ -36,10 +26,6 @@ export const InfoContainer = styled.div`
         margin-top: 10px;
     }
     
-`
-export const Title = styled.h1`
-    width: 100%;
-    font-size: 36px;
 `
 
 export const Subtitle = styled.h1`
