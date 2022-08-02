@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar"
 import Showcase from "./components/Showcase"
 import Profile from "./components/Profile"
 import CompletedProjects from './components/CompletedProjects'
-import FutureProjects from './components/FutureProjects'
+import Miscellaneous from './components/Miscellaneous'
 
 
 /* add element={} with components needed for route path to fix if broken*/
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Showcase />} />
           <Route path="/Profile" element={<Profile />}/>
           <Route path="/CompletedProjects" element={<CompletedProjects />}/>
-          <Route path="/FutureProjects" element={<FutureProjects />}/>
+          <Route path="/Miscellaneous" element={<Miscellaneous />}/>
         </Routes>
     </Router>
   );

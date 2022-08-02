@@ -45,7 +45,7 @@ export default function Navbar() {
                             <NavbarLink to="/">Home</NavbarLink>
                             <NavbarLink to="/Profile">Profile</NavbarLink>
                             <NavbarLink to="/CompletedProjects">Projects</NavbarLink>
-                            <NavbarLink to="/FutureProjects">Future Projects</NavbarLink>
+                            <NavbarLink to="/Miscellaneous">Miscellaneous</NavbarLink>
                             
                             <OpenLinksButton onClick={switchNavbar}>{extendedNavbar ? "︽" : "︾"}</OpenLinksButton>
                         </LinkContainer>
@@ -56,7 +56,7 @@ export default function Navbar() {
                     <NavbarLinkExtended to="/">Home</NavbarLinkExtended>
                     <NavbarLinkExtended to="/Profile">Profile</NavbarLinkExtended>
                     <NavbarLinkExtended to="/CompletedProjects">Projects</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/FutureProjects">Future Projects</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/Miscellaneous">Miscellaneous</NavbarLinkExtended>
                 </ExtendedContainer>
                 )}
             </NavbarContainer>

@@ -2,9 +2,9 @@ import React from "react"
 import ProjectData from "../projectData.js"
 import Project from "./ProjectTemplate"
 import {
-    Container,
-} from "../styles/CompletedProjects.style"
-
+    Title,
+    FullContainer,
+} from "../styles/Basic.style.js"
 
 export default function CompletedProjects() {
     const projects = ProjectData.data.completedProjects.map(project => {
@@ -16,8 +16,9 @@ export default function CompletedProjects() {
     )})
 
     return (
-        <Container>
+        <FullContainer>
+            <Title>Completed Projects</Title>
             {projects}
-        </Container>
+        </FullContainer>
         )
 }

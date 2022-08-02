@@ -7,7 +7,6 @@ import {
     PictureContainer,
 } from "../styles/Profile.style.js"
 import {
-    Title,
     FullContainer,
     Container,
 } from "../styles/Basic.style.js"
