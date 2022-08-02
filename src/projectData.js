@@ -154,6 +154,25 @@ export default {
                 single loop twice more are triple thread into the loop two down from the current position. From then on repeat
                 triple threads each stitch until end, with two single loops, flip (always R to L), and proceed with triple threads
                 starting from nearest loop. I did this scarf with a pale blue, it ended up around 4 feet long.`
+            },
+            {
+                id: 8,
+                name: "Panda Plush",
+                imageUrl: "pandaPlush",
+                totalImages: 1,
+                description: "Black and white panda plush",
+                dateStarted: "2022-07-29",
+                dateEnded: "2022-07-31",
+                hoursSpent: 6,
+                fullDescription: `This panda is, and the time of creation, the smallest plush I have ever made. It is around 7cm wide, 5cm long and
+                12cm tall. It is approximately hand sized. It was a fun project, done fully at my cottage over the long weekend. The hardest part was 
+                working with black yarn in poor lighting. I plan on it being a gift to my boyfriend, as he is quite fond of pandas (not the python library, 
+                although trying to do a crochet regarding a programming library sounds interesting).
+                `,
+                patternDescription: `This project was made through following an online pattern, which can be found using this 
+                link https://www.supergurumi.com/amigurumi-crochet-panda-pattern. I decicded to sew the nose in an oval shape instead
+                of in a circular manner, with an approximately 2:1 width height ratio. I decided to forgo adding the bamboo shoot as well, 
+                as I had plans on either adding a heart plush, or otherwise. `
             }
             
         ]

@@ -1,21 +1,21 @@
 import React from "react"
 import ProjectData from "../projectData.js"
 import {
-    ProfileContainer,
     AboutContainer,
-    StatsContainer,
     ProfilePicture,
-    Title,
     Text,
-    FullContainer,
     PictureContainer,
 } from "../styles/Profile.style.js"
-
+import {
+    Title,
+    FullContainer,
+    Container,
+} from "../styles/Basic.style.js"
 
 export default function Profile() {
     return (
         <FullContainer> 
-            <ProfileContainer>
+            <Container>
                 <PictureContainer>
                     <ProfilePicture src={"../images/profilePhoto.jpg"}/>
                 </PictureContainer>
@@ -35,9 +35,7 @@ export default function Profile() {
                     with new finished projects, and to document goals I want for the future. I will also be trying to make use of 
                     different libraries and programming strategies to improve the website and my knowledge.</Text>
                 </AboutContainer>
-            </ProfileContainer>
-            <StatsContainer>
-            </StatsContainer>
+            </Container>
         </FullContainer>
         )
 } 

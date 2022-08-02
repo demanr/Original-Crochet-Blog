@@ -4,12 +4,14 @@ import Card from "./Card.js"
 import {
     ShowcaseContainer,
     CardSection,
-    Title,
     Descriptor,
     GraphSection,
     GraphDescription,
 } from "../styles/Showcase.style.js"
-
+import {
+    Title,
+    FullContainer,
+} from "../styles/Basic.style.js"
 import {
     BarChart,
     Bar,
@@ -36,7 +38,7 @@ export default function Showcase() {
     ,{name: "e", dateCompleted: "march", timeSpent: 4}]
 
     return (
-        <ShowcaseContainer>
+        <FullContainer>
             <Title>Welcome</Title>
             <Descriptor>Hello, and welcome to my crochet blog. Here you will find information on my works, 
             information about me, and some projects I plan to do in the future. This blog serves as a 
@@ -61,6 +63,6 @@ export default function Showcase() {
                     in no specific order.
                 </GraphDescription>
             </GraphSection>
-        </ShowcaseContainer>
+        </FullContainer>
         )
 }

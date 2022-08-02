@@ -5,6 +5,7 @@ import {
     Container,
 } from "../styles/CompletedProjects.style"
 
+
 export default function CompletedProjects() {
     const projects = ProjectData.data.completedProjects.map(project => {
         return (

@@ -6,6 +6,8 @@ import {
     CardTitle,
     CardDescription,
 } from "../styles/Card.style.js"
+
+
 export default function Card(props) {
     const [currentImage, setCurrentImage] = React.useState(1)
     

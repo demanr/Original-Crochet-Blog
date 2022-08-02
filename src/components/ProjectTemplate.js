@@ -1,13 +1,15 @@
 import React from "react"
 import ProjectData from "../projectData.js"
 import {
-    Container,
     ImageContainer,
     InfoContainer,
     Image,
     Subtitle,
-    Title,
 } from "../styles/ProjectTemplate.style.js"
+import {
+    Title,
+    Container,
+} from "../styles/Basic.style.js"
 
 export default function Project(props) {
     const [currentImage, setCurrentImage] = React.useState(1)
