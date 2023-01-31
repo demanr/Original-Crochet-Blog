@@ -108,7 +108,7 @@ export default {
                 dateEnded: "2022-01-05",
                 hoursSpent: 5,
                 fullDescription: `Standing at around 4 feet 10 inches, this scarf ended up being a bit bigger than I thought. It was 
-                made as a Christmas gift for my boyfriend, Wally. There is nothing inherently special about it, but it was a nice Christmas break 
+                made as a Christmas gift for Wally. There is nothing inherently special about it, but it was a nice Christmas break 
                 project. It took equally as long (if not longer) than my simple scarf due to being almsot a foot longer. It was also my first project done with 
                 very dark coloured yarn, and as such at times I struggled to find the correct stitches at times.`,
                 patternDescription: `As with all my early projects, this is made using medium (4) yarn. This pattern is the same as the grey regular scarf with some exceptions. Firstly, it is less wide,
@@ -166,13 +166,32 @@ export default {
                 hoursSpent: 6,
                 fullDescription: `This panda is, and the time of creation, the smallest plush I have ever made. It is around 7cm wide, 5cm long and
                 12cm tall. It is approximately hand sized. It was a fun project, done fully at my cottage over the long weekend. The hardest part was 
-                working with black yarn in poor lighting. I plan on it being a gift to my boyfriend, as he is quite fond of pandas (not the python library, 
+                working with black yarn in poor lighting. I plan on it being a gift to Wally, as he is quite fond of pandas (not the python library, 
                 although trying to do a crochet regarding a programming library sounds interesting).
                 `,
                 patternDescription: `This project was made through following an online pattern, which can be found using this 
                 link https://www.supergurumi.com/amigurumi-crochet-panda-pattern. I decicded to sew the nose in an oval shape instead
                 of in a circular manner, with an approximately 2:1 width height ratio. I decided to forgo adding the bamboo shoot as well, 
                 as I had plans on either adding a heart plush, or otherwise. `
+            },
+            {
+                id: 9,
+                name: "Kirby Plush",
+                imageUrl: "kirbyPlush",
+                totalImages: 5,
+                description: "Hand sized Kirby plush",
+                dateStarted: "2022-09-23",
+                dateEnded: "2022-10-01",
+                hoursSpent: 10,
+                fullDescription: `This plush kirby was made as a gift for my friend Kat. Her favourite Kirby game is "Kirby's Epic Yarn", and
+                as such I made an amigurumi for her to have one in real life too! The hardest part was the eyes,
+                as I wanted them to be made fully of yarn while including the ombre colour change of the eyes.
+                `,
+                patternDescription: `This project was made through following an online pattern, along with my own insight. The pattern I used
+                for the boots and arms can be found here https://amiamour.com/kirby-amigurumi-crochet-pattern/, although note I changed the sizing as my Kirby
+                was larger than the one in the video. The mouth has two layers, a lower layer of deep red (which is made using a simple triangle pattern, simialr to that sued for baby yoda)
+                and a tongue that is sewed on. The eyes are multilayered, a black oval on the bottom, followed by sewing two lines of blues starting lightest at the bottom and getting darker
+                until finally a deep navy blue transitions to the black base. White for the eye shimmers is sewn in lines above as well`
             }
             
         ]
