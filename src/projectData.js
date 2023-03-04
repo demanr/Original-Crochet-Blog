@@ -192,6 +192,26 @@ export default {
                 was larger than the one in the video. The mouth has two layers, a lower layer of deep red (which is made using a simple triangle pattern, simialr to that sued for baby yoda)
                 and a tongue that is sewed on. The eyes are multilayered, a black oval on the bottom, followed by sewing two lines of blues starting lightest at the bottom and getting darker
                 until finally a deep navy blue transitions to the black base. White for the eye shimmers is sewn in lines above as well`
+            },
+            {
+                id: 9,
+                name: "Axolotl Bucket Hat",
+                imageUrl: "axolotlHat",
+                totalImages: 3,
+                description: "Pink Axolotl Bucket Hat",
+                dateStarted: "2022-08-05",
+                dateEnded: "2022-08-06",
+                hoursSpent: 8,
+                fullDescription: `This axolotl hat is a 20th birthday gift to my friend Claire. She loves goofy hats, and her favourite animal is the axolotl.
+                Her favourite animal is an axolotl, and so I combined the two ideas into one to make the hat! It is a combination of a base hat, 6 fins, and two round black
+                circles for eyes. A lot of the time spent on this project was from trial and error to create the fin shapes that I wanted. 
+                `,
+                patternDescription: `This project was made through a combination of my own insight and following an online pattern. 
+                The base hat was started using this pattern https://www.youtube.com/watch?v=8HatNrVAOLE&t=99s, but after completing the first 6 rows 
+                I realized the hat would be too small. As such, I freehanded and improvised the amount of rows needed to make the hat. 
+                I will list my exact steps at a later date. For the fins, I created several simple circular triangle shapes until I was satisfied. The 
+                eyes are 3 row cirlces starting with a magic ring, with 6 original stitches and doubling each row.
+              `
             }
             
         ]
